@@ -6,7 +6,12 @@ timeline = new TL.Timeline('timeline-embed', {
             },
             "text": {
                 "headline": "Java 2D Level Editor",
-                "text": "A student project for my first Java course!<br/><a href='https://github.com/brspnnggrt/private'>GitHub</a>"
+                "text": `A student project for my first Java course!
+                        <br/>
+                        <a href='https://github.com/brspnnggrt/private'>GitHub</a>
+                        <br/>
+                        <br/>
+                        <p style="font-family: Calibri Light">Java | Swing</p>`
             },
             "media": {
                 "url": "./projects/java/PE3_Editor.mp4",
@@ -22,7 +27,12 @@ timeline = new TL.Timeline('timeline-embed', {
         },
         "text": {
             "headline": "Java 2D Role Playing Game",
-            "text": "Created a small game with my level editor"
+            "text": `A student project for my first Java course!
+                    <br/>
+                    <a href='https://github.com/brspnnggrt/private'>GitHub</a>
+                    <br/>
+                    <br/>
+                    <p style="font-family: Calibri Light">Java | Swing</p>`
         },
         "media": {
             "url": "./projects/java/PE3_Game.mp4",
@@ -31,5 +41,26 @@ timeline = new TL.Timeline('timeline-embed', {
         "background": {
             "url": "./projects/java/snippet.png"
         }
-}]
+    },{
+        "start_date": {
+            "year": 2015,
+            "month": 8
+        },
+        "text": {
+            "headline": "Migration Manager",
+            "text": `Created a visual assist for managing complex migration projects
+                    <br/>
+                    <a href='https://github.com/brspnnggrt/MigrationManager'>GitHub</a>
+                    <br/>
+                    <br/>
+                    <p style="font-family: Calibri Light">JavaScript | ES6 | React | d3 | NodeJS | MongoDB | C# | .NET | SOAP</p>`
+        },
+        "media": {
+            "url": "./projects/migrationmanager/migrationmanager.png",
+            "thumbnail": "./projects/migrationmanager/background.png"
+        },
+        "background": {
+            "url": "./projects/migrationmanager/background.png"
+        }
+    }]
 });
