@@ -115,7 +115,7 @@ tour.addStep({
 
 tour.addStep({
   id: 'lace',
-  text: 'Test it on right here: remove all dots in the area below by clicking on an area on the first picture. <br/> <br/> The first image is input, the other images are output! The last image is the result. <br/><br/> Unfortunately most images will not load due to CORS limitations in the browser, unless you host the images yourself.<br/><br/> Once the image is ready you can save it like any other image on the web, using right click -> save as!',
+  text: 'Test it live on the left: remove all dots in the output pictures by clicking on an area on the first picture. <br/> <br/> The first image is input, the other images are output! The last image is the result. <br/><br/> You can load custom images if CORS allows you to, please wait a few seconds if the images do not load.<br/><br/> You can save the output like any other image on the web, using right click -> save as!',
   attachTo: {
     element: "#lace .tl-media-content",
     on: 'right'
