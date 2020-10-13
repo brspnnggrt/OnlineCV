@@ -9,7 +9,7 @@ tour.addStep({
   id: 'welcome',
   text: 'Welcome! Here you can see some work that I have done... :)',
   buttons: [{
-    text: "Understood, I am excited to see what you have in store for me!",
+    text: "Understood!",
     action: tour.next
   }]
 });
@@ -26,7 +26,7 @@ tour.addStep({
 
 tour.addStep({
   id: 'forest',
-  text: 'I think I need to add some more forest on the right side of the map.',
+  text: 'I think I need to add some more forest on the right side of the map!',
   attachTo: {
     element: "#java-2d-level-editor .tl-media-content",
     on: 'right'
@@ -35,7 +35,7 @@ tour.addStep({
 
 tour.addStep({
   id: 'tower',
-  text: 'Let us add a tower on top of the previously drawn tiles.',
+  text: 'Let us add a tower on top of the previously drawn tiles!',
   attachTo: {
     element: "#java-2d-level-editor .tl-media-content",
     on: 'right'
@@ -102,7 +102,7 @@ tour.addStep({
 
 tour.addStep({
   id: 'engene',
-  text: 'This cube is projected into 3-dimensional space using rotation matrices <br/><a href="https://en.wikipedia.org/wiki/Rotation_matrix">more on wikipedia</a>',
+  text: 'The cube is projected into 3-dimensional space using rotation matrices <br/><a href="https://en.wikipedia.org/wiki/Rotation_matrix">more on wikipedia</a>',
   attachTo: {
     element: "#engene .tl-media-content",
     on: 'right'
@@ -115,7 +115,7 @@ tour.addStep({
 
 tour.addStep({
   id: 'lace',
-  text: 'Test it live on the left: remove all dots in the output pictures by clicking on an area on the first picture. <br/> <br/> The first image is input, the other images are output! The last image is the result. <br/><br/> You can load custom images if CORS allows you to, please wait a few seconds if the images do not load.<br/><br/> You can save the output like any other image on the web, using right click -> save as!',
+  text: 'Remove all dots in the output pictures by clicking on an area on the first picture. <br/> <br/> The first image is input, the other images are output! The last image is the result. <br/><br/> You can load custom images if CORS allows you to, please wait a few seconds if the images do not load.<br/><br/> You can save the output like any other image on the web!',
   attachTo: {
     element: "#lace .tl-media-content",
     on: 'right'
@@ -128,7 +128,7 @@ tour.addStep({
 
 tour.addStep({
   id: 'exporter',
-  text: `Fully clientside solution that retrieves file content from API into javascript and downloads them in a structured zipfile. Afterwards creates a visualization such as seen on the left. Originally I had a solution using Docker and CloudFoundry but making it 100% clientside made this obsolete.`,
+  text: `Fully clientside solution that retrieves file content from javascript, stores it in a structured zipfile, and Creates a visualization such as seen on the left. Originally I had a solution using Docker and CloudFoundry but making it 100% clientside made this obsolete.`,
   attachTo: {
     element: "#sap-cpq-script-visualizer .tl-media-content",
     on: 'right'
